@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+header nav > a{
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header a:hover {
+    transition: 1s;
+    background-color: red;
+    border-radius: 20%;
+}
+
+header nav {
+    margin-top: 40px;
+    
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+
+main h1 {
+  background-color: chartreuse;
+}
+
+main {
+    max-width: 1100px;
+    min-width: 400px;
+    background-color: white;
+    margin: auto;
+}
+
+main p {
+    margin-top: 10px;
+}
