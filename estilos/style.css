@@ -27,7 +27,6 @@ header a:hover {
 
 header nav {
     margin-top: 40px;
-    
     text-align: center;
 }
 
@@ -46,7 +45,7 @@ main h1 {
 }
 
 main {
-    max-width: 1100px;
+    max-width: 1200px;
     min-width: 400px;
     background-color: white;
     margin: auto;
@@ -54,4 +53,5 @@ main {
 
 main p {
     margin-top: 10px;
+    text-indent: 20px;
 }
