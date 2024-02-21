@@ -55,7 +55,7 @@ header {
     background-image: linear-gradient( to bottom, var(--cor1), var(--cor2));
 }
 
-main h1, h2 {
+main .conteudo{
   background-image: linear-gradient(to right, var(--cor3), white);
   font-family: var(--font-h1);
 }
@@ -84,4 +84,16 @@ main a.externo {
 
  a.externo::after {
     content: '\1F517';
+ }
+
+ h1.div {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+ }
+
+ main div img {
+    width: 50px;
+    border-radius: 50%;
  }
