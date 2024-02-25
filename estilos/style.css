@@ -99,16 +99,19 @@ main a.externo {
     border-radius: 50%;
  }
 
- section div {
-    background-color: var(--cor3);
-    width: 500px;
-    margin-left: 763px;
-    padding-left: 20px;
- }
 
  section .div-music {
     color: black;
     text-decoration: none;
+ }
+
+ section .pri-div{
+    background-color: var(--cor3);
+    width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    padding-left: 20px;
+    display: block;
  }
 
  section a.div-music:hover {
@@ -120,3 +123,5 @@ main a.externo {
  article div a{
     border: 1px solid black;
  }
+
+ 
