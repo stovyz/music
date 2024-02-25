@@ -14,7 +14,7 @@
     --cor2: #B8B8FF;
     --cor3: #BFD7EA;
     --cor4: #16324F;
-    --cor5: #304D6D;
+    --cor5: #0E9CE3;
 
     --font-padrao: arial, helvetica, sans-serif;
     --font-nav: 'Nunito Sans', helvetica;
@@ -32,7 +32,7 @@ header nav > a{
 
 header a:hover {
     transition: 1s;
-    background-color: red;
+    background-color: #E5B901;
     border-radius: 20%;
 }
 
@@ -52,16 +52,16 @@ header h1 {
 header {
     padding-top: 40px;
     padding-bottom: 10px;
-    background-image: linear-gradient( to bottom, var(--cor1), var(--cor2));
+    background-image: linear-gradient( to bottom, var(--cor4), var(--cor5));
 }
 
 main .conteudo{
-  background-image: linear-gradient(to right, var(--cor3), white);
+  background-image: linear-gradient(to right, var(--cor2), white);
   font-family: var(--font-h1);
 }
 
 main {
-    max-width: 1300px;
+    max-width: 2560px;
     min-width: 320px;
    
 }
@@ -74,7 +74,7 @@ main p {
 }
 
 main a.externo {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     color: black;
     padding: 6px 2px;
     text-decoration: none;
@@ -86,7 +86,7 @@ main a.externo {
     content: '\1F517';
  }
 
- h1.div {
+ h1.div { 
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 20px;
@@ -94,6 +94,29 @@ main a.externo {
  }
 
  main div img {
+    margin-top: 20px;
     width: 50px;
     border-radius: 50%;
+ }
+
+ section div {
+    background-color: var(--cor3);
+    width: 500px;
+    margin-left: 763px;
+    padding-left: 20px;
+ }
+
+ section .div-music {
+    color: black;
+    text-decoration: none;
+ }
+
+ section a.div-music:hover {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bolder;
+ }
+
+ article div a{
+    border: 1px solid black;
  }
