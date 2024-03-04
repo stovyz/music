@@ -3,3 +3,23 @@
 main p {
     text-align: center;
 }
+
+body{
+ background-color: lightgray;
+}
+
+main div.footer-principal {
+    max-width: 2600px;
+    max-height: 173px;
+}
+
+main img {
+    width: 50px;
+    border-radius: 10px;
+}
+
+#empresa {
+    font-size: 1.6em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
