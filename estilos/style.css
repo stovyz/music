@@ -37,7 +37,7 @@ header nav > a {
 header a:hover {
     transition: 1s;
     background-color: #E5B901;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 header nav {
@@ -133,27 +133,47 @@ main a.externo {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
  }
 
-footer div.footer-principal {
-    background-color: rgba(168, 168, 168, 0.562);
-    max-width: 2600px;
-    max-height: 173px;
-}
+ footer {
+    max-width: 2660px;
+    padding: 10px;
+    margin-top: 100px;
+    background-color: #cdcde4;
+ }
 
-footer img {
-    width: 50px;
-    border-radius: 10px;
-}
+ footer div > p {
+    text-align: center;
+    font-size: larger;
+ }
 
-#empresa {
-    font-size: 1.6em;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
+ footer a#daviroda {
+    text-decoration: none;
+    color: rgb(94, 67, 124);
+ }
+ 
+footer a#daviroda:hover {
+    color: blue;
+    text-decoration: underline;
 }
 
 footer p.copy {
     margin-top: 50px;
 }
 
-footer p.explicacao-foot {
-    margin-top: 30px;
+footer nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 1.3em;
+    font-family: var(--font-estilo);
+    font-weight: bold;
 }
+
+footer nav a:hover {
+    transition: 1s;
+    background-color: #E5B901;
+    border-radius: 10%;
+}
+
+
+
