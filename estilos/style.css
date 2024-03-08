@@ -141,6 +141,7 @@ main a.externo {
  }
 
  footer div > p {
+    margin-top: 20px;
     text-align: center;
     font-size: larger;
  }
@@ -155,8 +156,8 @@ footer a#daviroda:hover {
     text-decoration: underline;
 }
 
-footer p.copy {
-    margin-top: 50px;
+footer .copy {
+    margin-top: 20px;
 }
 
 footer nav a {
