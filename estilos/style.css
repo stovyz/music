@@ -114,7 +114,6 @@ main a.externo {
     font-family: var(--font-estilo);
     background-color: var(--cor3);
     max-width: 2550px;
-    max-height: 300px;
     min-width: 327px;
     margin: auto;
     margin-top: 40px;
