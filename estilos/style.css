@@ -8,7 +8,7 @@
 
 @font-face {
     font-family:'Nunito Sans' ;
-    src: url(../Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+    src: url(../fontes/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
 }
 
 
@@ -45,6 +45,7 @@ header nav {
     text-align: center;
     font-family: var(--font-estilo);
 }
+
 
 header h1 {
     text-align: center;
@@ -115,9 +116,10 @@ main a.externo {
     max-width: 2550px;
     max-height: 300px;
     min-width: 327px;
-    padding-bottom: 100px;
     margin: auto;
     margin-top: 40px;
+    border-radius: 0px 40px;
+    box-shadow: 1px 1px 1px 2px rgb(228, 221, 221);
     padding-left: 20px;
     display: block;
  }
@@ -134,9 +136,9 @@ main a.externo {
  }
 
  footer {
+    margin-top: 40px;
     max-width: 2660px;
     padding: 10px;
-    margin-top: 100px;
     background-color: #cdcde4;
  }
 
