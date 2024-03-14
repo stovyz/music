@@ -177,5 +177,6 @@ footer nav a:hover {
     border-radius: 10%;
 }
 
-
-
+main .linha-final {
+    margin-top: 20px;
+}
