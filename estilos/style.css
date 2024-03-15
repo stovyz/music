@@ -68,7 +68,6 @@ main .conteudo{
 main {
     max-width: 2580px;
     min-width: 320px;
-   
 }
 
 main p {
@@ -135,7 +134,7 @@ main a.externo {
  }
 
  footer {
-    margin-top: 40px;
+    margin-top: 20px;
     max-width: 2660px;
     padding: 10px;
     background-color: #cdcde4;
