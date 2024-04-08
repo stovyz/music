@@ -27,7 +27,7 @@
 
 header nav > a {
     padding: 10px;
-    margin: 5px;
+    margin-right: 5px;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -38,6 +38,7 @@ header p {
     text-align: center;
     font-size: 1.4em;
     font-family: var(--font-estilo);
+    margin-bottom: 40px;
 }
 
 header a:hover {
@@ -47,8 +48,9 @@ header a:hover {
 }
 
 header nav {
-    margin-top: 40px;
-    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: right;
     font-family: var(--font-estilo);
 }
 
@@ -64,7 +66,10 @@ header h1 {
 header {
     padding-top: 40px;
     padding-bottom: 10px;
-    background-image: linear-gradient( to bottom, var(--cor4), var(--cor5));
+    background-image: url(../banner/banner.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .conteudo{
