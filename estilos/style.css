@@ -23,14 +23,42 @@
     --font-estilo: 'Nunito Sans', helvetica;
 }
 
+span#burguer {
+    background-color: blue;
+    display:inline;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    cursor: pointer;
+}
 
-
-header nav > a {
-    padding: 10px;
+span#burguer:hover {
+    background-color: white;
     color: black;
+    border-radius: 20%;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu a {
+    display: inline-block;
+    padding: 10px;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
+    background-color: rgb(68, 64, 64);
+    color: white;
+    text-align: left;
+    border-top: 2px solid gray;
+}
+
+menu a:hover {
+    background-color: gray;
+
 }
 
 header p {
@@ -38,17 +66,6 @@ header p {
     font-size: 1.4em;
     font-family: var(--font-estilo);
     margin-bottom: 40px;
-}
-
-header a:hover {
-    transition: 1s;
-    background-color: #E5B901;
-    border-radius: 10%;
-}
-
-header nav {
-    text-align: center;
-    font-family: var(--font-estilo);
 }
 
 
@@ -62,8 +79,7 @@ header h1 {
 
 header {
     padding-top: 40px;
-    padding-bottom: 10px;
-    background-image: url(../banner/banner.png);
+    background-color: blue;
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
