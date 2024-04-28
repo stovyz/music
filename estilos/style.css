@@ -28,6 +28,8 @@ span#burguer {
     display:inline;
     color: white;
     text-align: left;
+    position: absolute;
+    top: 5px;
     padding: 5px;
     cursor: pointer;
 }
@@ -43,7 +45,9 @@ menu {
 }
 
 menu > ul {
-    list-style-type: none;
+    position: absolute;
+    top: 40px;
+    list-style-type: none;;
 }
 
 menu a {
@@ -52,7 +56,6 @@ menu a {
     text-decoration: none;
     background-color: rgb(68, 64, 64);
     color: white;
-    text-align: left;
     border-top: 2px solid gray;
 }
 
