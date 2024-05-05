@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 header > a {
-   color: black;
+   color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
 }
 
 header a:hover {
-    background-color: #E5B901;
+    background-color: rgb(99, 99, 99);
     padding: 10px;
     border-radius: 10%;
     transition: 1s;
@@ -24,7 +24,7 @@ main h2 {
 }
 
 body{
- background-color: lightgray;
+ background-color: rgb(148, 147, 147);
 }
 
 main div.footer-principal {
@@ -39,6 +39,7 @@ main img {
 }
 
 #empresa {
+    margin-top: 20px;
     font-size: 1.6em;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
